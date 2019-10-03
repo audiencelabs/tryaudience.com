@@ -21,18 +21,14 @@ html {
     background-color: rgba(0,0,0,0.65);
 }
 
-h1 {
-    font-size: 42px;
-    font-weight: 600;
-    text-align: center;
-    margin: 10px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+.logo {
+    height: 100px;
+    width: 300px;
 }
 
 h2 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -41,10 +37,13 @@ h2 {
 }
 
 #mc_embed_signup {
-    clear: left;
+    margin: 20px;
+    max-width: 460px;
 }
 
 #mc_embed_signup label {
     font-size: 20px;
     font-weight: 300;
+    line-height: 24px;
+    text-align: center;
 }
